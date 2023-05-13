@@ -3,9 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-.block {
+.block 
+{
     width: 300px;
-    height: 200px;
+    height: 45px;
     border: 2px solid;
     background-color: blueviolet;
+    text-align: center; 
+    }
+
+body 
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size-adjust: initial;
+    
 }
+.paragraph { font-size: x-large;font-weight: 600;
+    font-style: oblique;
+
+}
+a {color: rgb(11, 10, 10);;}
+
