@@ -1,15 +1,21 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 .block 
+
 {
-    width: 300px;
+    width: 280px;
     height: 45px;
     border: 2px solid;
-    background-color: blueviolet;
+    background-color: rgb(168, 142, 193);
     text-align: center; 
+    margin: 20px 20px;
+    padding: 10px 10px ;
+    
+   
+    
     }
 
 body 
@@ -20,9 +26,33 @@ body
     font-size-adjust: initial;
     
 }
-.paragraph { font-size: x-large;font-weight: 600;
-    font-style: oblique;
 
+.paragraph 
+{ font-size: x-large;
+   max-width: 1200px;
+   margin: 0 auto; 
+   padding: 10px 0px; }
+a 
+{color: rgb(11, 10, 10);;
 }
-a {color: rgb(11, 10, 10);;}
+
+.container {
+
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header-block {
+    background-color: pink;
+    margin: 0 auto;
+    padding: 10px 0px; 
+}
+
+.references {max: width 1280px; 
+    margin:  auto;
+padding: 0px 0px}
+
+
+
 
