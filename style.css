@@ -49,7 +49,7 @@ a
     padding: 10px 0px; 
 }
 
-.references {max: width 1280px; 
+.references {max-width: width 1280px; 
     margin:  auto;
 padding: 0px 0px}
 
