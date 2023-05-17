@@ -30,8 +30,8 @@ body
 .paragraph 
 { font-size: x-large;
    max-width: 1200px;
-   margin: 0 auto; 
-   padding: 10px 0px; }
+}
+
 a 
 {color: rgb(11, 10, 10);;
 }
@@ -52,6 +52,30 @@ a
 .references {max-width: width 1280px; 
     margin:  auto;
 padding: 0px 0px}
+
+table {
+    background-color: white;
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+th {
+    border: 1px solid #333;
+    padding: 3px;
+}
+
+td {
+    border: 1px dotted #333;
+    padding: 4px;
+}
+
+.colspan {
+    background-color: aqua;
+}
+
+
+
+
 
 
 
