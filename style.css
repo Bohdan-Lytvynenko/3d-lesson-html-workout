@@ -73,8 +73,23 @@ td {
     background-color: aqua;
 }
 
+nav ul{
+    display: flex;
+    
+    gap: 10px;
+    
+}
 
+nav ul li{
+    list-style: none;
+}
 
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 22px;
+  
+}
 
 
 
