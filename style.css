@@ -24,7 +24,7 @@ body
     font-style: normal;
     font-weight: 100;
     font-size-adjust: initial;
-    
+    height: 100%;
 }
 
 .paragraph 
@@ -87,9 +87,37 @@ nav ul li{
 nav ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 22px;
+  font-size: 25px;
   
 }
+header {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(157, 81, 81);
+    height: 10vh;
+    align-items: center;
+}
+main {
+    display: flex ;
+    height: 80vh;
+}
+
+aside {
+     width: 25%;
+     background-color: blueviolet;
+}
+
+section {
+    width: 75%;
+    background-color: violet;
+}
+
+footer {
+    height: 10vh;
+    background-color: aqua;
+}
+
 
 
 
